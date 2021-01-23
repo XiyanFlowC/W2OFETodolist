@@ -1,0 +1,86 @@
+.btn, .btn-cfm {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 0.1em;
+    color: white;
+}
+
+.btn-cfm {
+    background-color: rgb(72, 255, 96);
+}
+
+.btn-cfm:active {
+    background-color: rgb(56, 151, 71);
+}
+
+.btn-cfm:hover {
+    background-color: rgb(118, 255, 137);
+}
+
+.btn {
+    background-color: rgb(46, 82, 241);
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: 0.05em;
+    padding-left: 0.1em;
+    padding-top: 0.05em;
+    margin-bottom: 0.5em;
+    margin-top: 0.1rem;
+    background-color: #FFFFCD;
+    border-bottom-color: #ffe679;
+    border-bottom: 0.1rem;
+}
+
+body {
+    background-color: #FFF8CD;
+}
+
+.box {
+    padding: 0.25em 0.2em;
+    border-radius: 0.2rem;
+    border: 0.1rem;
+    border-color: #40307F;
+    background-color: #c2b8ff;
+    color: #2f274e;
+    margin: 0.5rem 0.1rem;
+}
+
+table {
+    border: 0.1em;
+    border-color: #1f172e;
+    background-color: #c2b8ff;
+    color: black;
+}
+
+thead {
+    background-color: #7565b6;
+    color: white;
+}
+
+.textbox, .textbox:hover, .textbox:active {
+    background-color: white;
+    border: 0.2rem;
+    border-color: grey;
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+}
+
+.textbox:hover, .textbox:active {
+    border-color: #2a48cf;
+}
+
+.textbox:active {
+    border: 0.4rem;
+    margin: 0.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}

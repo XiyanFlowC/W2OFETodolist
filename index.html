@@ -1,0 +1,44 @@
+<head>
+    <title>代办事项 - 清单</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div id="list">
+    <h1>
+        Todo List
+    </h1>
+    <div class="box" id="morn">再不抓紧时间，事情可就做不完了。</div>
+    <table style="width: 100%">
+        <thead>
+            <tr>
+                <th style="width: 4em">
+                    序号
+                </th>
+                <th>
+                    标题
+                </th>
+                <th style="width: 6em">
+                    截止日期
+                </th>
+                <th style="width: 10em">
+                    操作
+                </th>
+            </tr>
+        </thead>
+        <tbody id="todolist"></tbody>
+    </table>
+    <hr />
+    <h2>增加新项</h2>
+        事项：<input type="text" id="entry_new" class="textbox" /><br />
+        截止时间：<input type="text" id="date_new" class="textbox" />
+        <button class="btn" onclick="addentry()">增加</button>
+    </div>
+    <div id="change" style="display: none;">
+        <input type="text" id="id_mod" style="display: none;" />
+        事项：<input type="text" id="entry_mod" class="textbox" /><br />
+        截止时间：<input type="text" id="date_mod" class="textbox" />
+        <button class="btn" onclick="modentry()">改变</button>
+        <button class="btn-cfm" onabort="canc()">取消</button>
+    </div>
+</body>
